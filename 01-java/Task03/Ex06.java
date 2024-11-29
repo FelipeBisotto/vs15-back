@@ -32,11 +32,11 @@ public class Ex06 {
 
     public static void main(String[] args) {
         System.out.println("\n--------- Teste 1 ----------");
-        Ex06 carro1 = new Ex06(60, 80, 5.0); 
+        Ex06 carro1 = new Ex06(60, 80, 5.0);
         carro1.exibirInfo();
 
         System.out.println("\n--------- Teste 2 ----------");
-        Ex06 carro2 = new Ex06(100, 90, 10.0); 
+        Ex06 carro2 = new Ex06(100, 90, 10.0);
         carro2.exibirInfo();
     }
 }
