@@ -1,3 +1,4 @@
+-- Task - Aula 01 - Task 01 
 -- Criar a tabela estudante
 CREATE TABLE VEM_SER.ESTUDANTE (
     id_estudante NUMBER PRIMARY KEY,
@@ -36,5 +37,5 @@ VALUES (VEM_SER.SEQ_ESTUDANTE.NEXTVAL, 'Freddie Mercury', TO_DATE('2000-01-18', 
 INSERT INTO VEM_SER.ESTUDANTE (id_estudante, nome, data_nascimento, nr_matricula, ativo)
 VALUES (VEM_SER.SEQ_ESTUDANTE.NEXTVAL, 'Roberto Carlos', TO_DATE('2000-01-19', 'YYYY-MM-DD'), 10, 'N');
 
--- Selecionar todos os estudantes inseridos
+-- Selecionar todos os estudantes inseridos 
 SELECT * FROM VEM_SER.ESTUDANTE;
